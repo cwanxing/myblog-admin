@@ -1,14 +1,15 @@
 <template>
   <div>
     <header>
-      <img src="./logo.svg" alt="logo" class="header-logo">
+      <img src="./logo.png" alt="logo" class="header-logo">
       <ul class="header-operations">
         <li>
-          <span class="header-lang is-active">{{user.name}}</span>
-          <span class="header-opacity">({{user.area}}/{{user.identity}})</span>
+          <span class="header-lang is-active">陈万兴</span>
+          <span class="header-opacity">(无敌管理员)</span>
         </li>
-        <li></li>
-      </ul></header>
+        <li>登出</li>
+      </ul>
+    </header>
   </div>
 </template>
 <script>
@@ -39,6 +40,8 @@
   .header-logo {
     display: inline-block;
     vertical-align: middle;
+    width: 45px;
+    height: 45px;
   }
   .header-operations {
     display: inline-block;
